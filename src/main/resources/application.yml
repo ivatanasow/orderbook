@@ -1,0 +1,11 @@
+server:
+  servlet:
+    context-path: /orderbook
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+application:
+  exchange:
+    host: wss://ws.kraken.com
